@@ -1,0 +1,142 @@
+# Begin Open GApps Install Log
+------------------------------------------------------------------
+            ROM Android version | 10
+                   ROM Build ID | nitrogen_vince-10-QP1A.191005.007
+          ROM Version increment | eng.pratee.20191010.045941
+                ROM SDK version | 29
+        ROM/Recovery modversion | 
+                Device Recovery | TWRP 3.3.1-0-ae7ff3b2
+                    Device Name | vince
+                   Device Model | Redmi 5 Plus
+                    Device Type | phone
+                     Device CPU | arm64-v8a,armeabi-v7a,armeabi
+          Device A/B-partitions | false
+             Installer Platform | arm
+                   ROM Platform | arm64
+           Display Density Used | 480
+                   Install Type | Dirty[Data NOT Wiped]
+             Smart ART Pre-ODEX | false [No dex2oat]
+Google Camera already installed | false
+          FaceUnlock Compatible | true
+              VRMode Compatible | false
+       Google Camera Compatible | true
+      New Camera API Compatible | true
+          Google Pixel Features | false
+          Current GApps Version | 20191006
+     Current Open GApps Package | stock
+       Installing GApps Zipfile | /sdcard/Documents/pixel/Archive.zip
+       Installing GApps Version | 20191006
+          Installing GApps Type | stock
+                    Config Type | 
+             Using gapps-config | Not Used
+      Remove Stock/AOSP Browser | true[default]
+       Remove Stock/AOSP Camera | false[NO_CameraGoogle]
+       Remove Stock/AOSP Dialer | true[default]
+        Remove Stock/AOSP Email | true[default]
+      Remove Stock/AOSP Gallery | true[default]
+     Remove Stock/AOSP Launcher | true[default]
+      Remove Stock/AOSP MMS App | true[default]
+     Remove Stock/AOSP Pico TTS | true[default]
+         Ignore Google Contacts | false[ContactsGoogle]
+           Ignore Google Dialer | false[DialerGoogle]
+         Ignore Google Keyboard | false[KeyboardGoogle]
+Ignore Google Package Installer | false[PackageInstallerGoogle]
+          Ignore Google NFC Tag | false[TagGoogle]
+          Ignore Google WebView | false[WebViewGoogle]
+         Total System Size (KB) | 3096336
+         Used System Space (KB) | 2128792
+        Current Free Space (KB) | 951160
+   Post Install Free Space (KB) | 921520   << See Calculations Below
+------------------------------------------------------------------
+# End Open GApps Install Log
+
+WARNING: Google VR Services has/will not be installed as requested.
+Google VR Services is NOT compatible with your device.
+
+WARNING: Google Camera has/will not be installed as requested. Google Camera
+can only be installed during a Clean Install or as an update to an existing
+GApps Installation.
+
+# Begin GApps Size Calculations
+------------------------------------------------------------------
+  TYPE  |         DESCRIPTION        |      SIZE |   TOTAL
+        |         Current Free Space |    951160 |  951160
+ Remove |             Existing GApps | + 1003508 | 1954668
+ Remove |             Obsolete Files | +       0 | 1954668
+ Remove |                    browser | +       0 | 1954668
+ Remove |            calculatorstock | +       0 | 1954668
+ Remove |              calendarstock | +       0 | 1954668
+ Remove |                 clockstock | +       0 | 1954668
+ Remove |              contactsstock | +       0 | 1954668
+ Remove |                dialerstock | +       0 | 1954668
+ Remove |                      email | +       0 | 1954668
+ Remove |              exchangestock | +       0 | 1954668
+ Remove |           extservicesstock | +       0 | 1954668
+ Remove |             extsharedstock | +       0 | 1954668
+ Remove |                    gallery | +       0 | 1954668
+ Remove |              keyboardstock | +       0 | 1954668
+ Remove |                   launcher | +       0 | 1954668
+ Remove |                        mms | +       0 | 1954668
+ Remove |      packageinstallerstock | +       0 | 1954668
+ Remove |                    picotts | +       0 | 1954668
+ Remove |          printservicestock | +       0 | 1954668
+ Remove |                  provision | +       0 | 1954668
+ Remove |        storagemanagerstock | +       0 | 1954668
+ Remove |                   tagstock | +       0 | 1954668
+ Remove |            wallpapersstock | +       0 | 1954668
+ Remove |               webviewstock | +       0 | 1954668
+ Remove |                webviewstub | +       0 | 1954668
+Install |                       Core | -  164492 | 1790176
+Install |                androidauto | -       0 | 1790176
+Install |               batteryusage | -   11188 | 1778988
+Install |                      books | -       0 | 1778988
+Install |           calculatorgoogle | -    2660 | 1776328
+Install |             calendargoogle | -   20740 | 1755588
+Install |            carrierservices | -   14104 | 1741484
+Install |                     chrome | -  126312 | 1615172
+Install |                clockgoogle | -    6184 | 1608988
+Install |                 cloudprint | -       0 | 1608988
+Install |             contactsgoogle | -    9244 | 1599744
+Install |            dialerframework | -      32 | 1599712
+Install |               dialergoogle | -   25856 | 1573856
+Install |                      drive | -   36464 | 1537392
+Install |                        duo | -       0 | 1537392
+Install |             exchangegoogle | -       0 | 1537392
+Install |                 facedetect | -    2544 | 1534848
+Install |                 faceunlock | -   19152 | 1515696
+Install |                      gmail | -   26224 | 1489472
+Install |                  googlepay | -       0 | 1489472
+Install |                  googletts | -       0 | 1489472
+Install |                       keep | -   18004 | 1471468
+Install |             keyboardgoogle | -   62152 | 1409316
+Install |                       maps | -   43112 | 1366204
+Install |                     markup | -   14464 | 1351740
+Install |                  messenger | -   46264 | 1305476
+Install |                     movies | -       0 | 1305476
+Install |                      music | -       0 | 1305476
+Install |                  newsstand | -       0 | 1305476
+Install |     packageinstallergoogle | -    1880 | 1303596
+Install |                     photos | -   48728 | 1254868
+Install |              pixellauncher | -       0 | 1254868
+Install |                  playgames | -   18908 | 1235960
+Install |         printservicegoogle | -      96 | 1235864
+Install |                     search | -  111512 | 1124352
+Install |                     speech | -       0 | 1124352
+Install |       storagemanagergoogle | -    6816 | 1117536
+Install |                  taggoogle | -     688 | 1116848
+Install |                   talkback | -       0 | 1116848
+Install |                  translate | -       0 | 1116848
+Install |                 wallpapers | -       0 | 1116848
+Install |              webviewgoogle | -  120500 |  996348
+Install |                  wellbeing | -    7132 |  989216
+Install |                    youtube | -   58480 |  930736
+        |               Buffer Space | -    9216 |  921520
+------------------------------------------------------------------
+                        Post Install Free Space |  921520
+------------------------------------------------------------------
+
+# End GApps Size Calculations
+
+# Begin User's gapps-config
+
+# End User's gapps-config
